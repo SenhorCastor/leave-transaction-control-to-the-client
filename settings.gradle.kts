@@ -1,12 +1,8 @@
-/** App **/
-//include(":app")
-
 /** Domain **/
-include(":domain:entities")
-include(":domain:usecases")
-include(":domain:repos")
-
-include(":transaction:interface")
-include(":transaction:mongo")
+include("entities")
+include("usecases")
+include("repos")
+include("transaction")
+include("app")
 
 rootProject.name = "leave-transaction-control-to-the-client"
