@@ -1,7 +1,7 @@
 package io.transaction.mongo
 
 import com.mongodb.client.MongoClient
-import io.usecases.transaction.Transaction
+import io.entities.transaction.Transaction
 
 fun MongoClient.getTransaction(transaction: Transaction?): TransactionMongo {
     return if (transaction == null) {

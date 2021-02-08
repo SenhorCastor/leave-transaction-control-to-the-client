@@ -1,4 +1,4 @@
-package io.usecases.transaction
+package io.entities.transaction
 
 class TransactionException : Exception {
     constructor(message: String) : super(message)

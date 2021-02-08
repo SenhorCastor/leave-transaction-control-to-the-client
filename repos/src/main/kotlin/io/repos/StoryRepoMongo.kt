@@ -3,7 +3,7 @@ package io.repos
 import com.mongodb.client.MongoClient
 import io.entities.Story
 import io.usecases.repos.StoryRepo
-import io.usecases.transaction.Transaction
+import io.entities.transaction.Transaction
 import io.transaction.mongo.getTransaction
 import org.litote.kmongo.save
 

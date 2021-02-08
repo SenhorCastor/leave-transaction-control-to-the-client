@@ -2,9 +2,9 @@ package io.transaction.mongo
 
 import com.mongodb.client.ClientSession
 import com.mongodb.client.MongoClient
-import io.usecases.transaction.Transaction
-import io.usecases.transaction.TransactionAbortedException
-import io.usecases.transaction.TransactionException
+import io.entities.transaction.Transaction
+import io.entities.transaction.TransactionAbortedException
+import io.entities.transaction.TransactionException
 import mu.KotlinLogging
 
 class TransactionMongo private constructor(private val client: MongoClient) : Transaction {

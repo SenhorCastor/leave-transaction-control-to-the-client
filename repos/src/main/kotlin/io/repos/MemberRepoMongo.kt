@@ -2,7 +2,7 @@ package io.repos
 
 import com.mongodb.client.MongoClient
 import io.usecases.repos.MemberRepo
-import io.usecases.transaction.Transaction
+import io.entities.transaction.Transaction
 import io.entities.Member
 import io.transaction.mongo.getTransaction
 import org.litote.kmongo.save

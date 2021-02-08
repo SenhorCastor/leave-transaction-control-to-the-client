@@ -1,4 +1,4 @@
-package io.usecases.transaction
+package io.entities.transaction
 
 interface Transaction {
     fun start()

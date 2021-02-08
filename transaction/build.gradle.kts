@@ -8,4 +8,5 @@ dependencies {
     implementation(Dependencies.mongo.kMongo)
 
     implementation(project(":usecases"))
+    implementation(project(":entities"))
 }

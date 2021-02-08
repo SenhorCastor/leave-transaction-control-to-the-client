@@ -9,7 +9,7 @@ import org.litote.kmongo.KMongo
 import java.util.*
 
 class App {
-    fun route() {
+    fun main() {
         val mongoClient = KMongo.createClient("mongodb://localhost:27017/?retryWrites=false")
         val memberRepo: MemberRepo = MemberRepoMongo(mongoClient)
         val storyRepo: StoryRepo = StoryRepoMongo(mongoClient)
