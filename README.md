@@ -5,5 +5,5 @@ For a description of the project, go to [Let transaction control to the client](
 
 ![Layererd Architecture](https://github.com/SenhorCastor/leave-transaction-control-to-the-client/blob/main/readme/LayeredArchitectureLet.jpg)
 
-![UML Diagram](https://github.com/SenhorCastor/leave-transaction-control-to-the-client/blob/main/readme/UMLLet.jpg)
+![UML Diagram](https://github.com/SenhorCastor/leave-transaction-control-to-the-client/blob/main/readme/UMLLeave.jpg)
 
